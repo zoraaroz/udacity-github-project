@@ -1,8 +1,7 @@
+## Udacity Python Project: Interactive display of bikeshare data
+
 ### Date created
 2021-01-05
-
-### Project Title
-Udacity Python Project: Interactive display of bikeshare data
 
 ### Description
 This is a project created during the Udacity Nanodegree course "Programming for
@@ -22,4 +21,4 @@ The output is some basic descriptive statistics on the data as well as raw data.
 Thank you to the Udacity team for providing the basic code structure.
 
 ### License
-The contents of this repository are covered under the MIT License.
+The contents of this repository are covered under the [MIT License](https://github.com/zoraaroz/udacity-github-project/blob/master/LICENSE).
