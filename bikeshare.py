@@ -49,7 +49,7 @@ def get_filters():
                     break
             except Exception as e:
                 print("Exception occurred: {}".format(e))
-    elif filter in ['d','n']:
+    else:
         month = 'all'
 
     # get user input for day of week
