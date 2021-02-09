@@ -143,7 +143,7 @@ def time_stats(df):
     hour_popular, hour_popular_count = get_mode_count(df['hour'])
     print('Most popular hour: {}\nCount: {}\n'.format(hour_popular,hour_popular_count))
 
-    print("These calculations took %s seconds.\n" % (time.time() - start_time))
+    print("These calculations took {} seconds.\n".format((time.time() - start_time)))
 
 
 # calculate station statistics
@@ -166,7 +166,7 @@ def station_stats(df):
     comb_station_popular, comb_station_popular_count = get_mode_count(df['Station Combination'])
     print('Most popular combination of stations: {}\nCount: {}\n'.format(comb_station_popular,comb_station_popular_count))
 
-    print("These calculations took %s seconds.\n" % (time.time() - start_time))
+    print("These calculations took {} seconds.\n".format((time.time() - start_time)))
 
 
 #calculate trip duration statistics
@@ -202,7 +202,7 @@ def trip_duration_stats(df):
 
     print('Average travel time: {0:.2f} minutes\n'.format(mean_duration_minutes))
 
-    print("These calculations took %s seconds.\n" % (time.time() - start_time))
+    print("These calculations took {} seconds.\n".format((time.time() - start_time)))
 
 
 # calculate user statistics
@@ -227,7 +227,7 @@ def user_stats(df):
 
     print('Oldest user born in: {}\nYoungest user born in: {}\nMost users born in: {}\n'.format(birthyear_min,birthyear_max,birthyear_mode))
 
-    print("These calculations took %s seconds.\n" % (time.time() - start_time))
+    print("These calculations took {} seconds.\n".format((time.time() - start_time)))
 
 
 # display raw data
