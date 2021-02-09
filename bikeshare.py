@@ -62,7 +62,7 @@ def get_filters():
                     break
             except Exception as e:
                 print("Exception occurred: {}".format(e))
-    elif filter in ['m','n']:
+    else:
         day = 'all'
 
     print('\n')
