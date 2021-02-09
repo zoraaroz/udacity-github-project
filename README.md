@@ -20,3 +20,6 @@ The output is some basic descriptive statistics on the data as well as raw data.
 
 ### Credits
 Thank you to the Udacity team for providing the basic code structure.
+
+### License
+The contents of this repository are covered under the MIT License.
