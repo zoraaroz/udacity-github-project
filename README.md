@@ -13,10 +13,10 @@ filter by month and/or day.
 The output is some basic descriptive statistics on the data as well as raw data.
 
 ### Files used
-bikeshare.py
-chicago.csv
-new_york_city.csv
-washington.csv
+* bikeshare.py
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
 ### Credits
 Thank you to the Udacity team for providing the basic code structure.
